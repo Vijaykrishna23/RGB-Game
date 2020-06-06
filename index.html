@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB Game</title>
+    <script src="./lib/scripts/jquery.js"></script>
+    <link rel="stylesheet" href="./lib/styles/bootstrap.css" />
+    <link rel="stylesheet" href="./lib/styles/style.css " />
+  </head>
+  <body>
+    <div class="container-fluid h-100">
+      <header>
+        <div class="container-fluid-head">
+          <div class="jumbotron jumbotron-fluid m-0 pb-3">
+            <div class="container">
+              <h1 class="lead text-center">The RGB Gussing Game</h1>
+              <p class="h2 text-center">RGB(0, 0, 0,)</p>
+              <hr class="my-2">
+              <div class="row d-flex justify-content-between menu">
+                <a href="#" id="reset" class="btn btn-outline-secondary mt-2 mb-0 col-xs-12">New Colors</a>
+                <span class="d-flex">
+                  <a href="#" id="easy" class="btn btn-outline-secondary mt-2 mb-0 col-xs-6 mr-2 mode">easy</a>
+                  <a href="#" id="hard" class="btn btn-outline-secondary mt-2 mb-0 col-xs-6 active mode">hard</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <span id="display" class="display col-xs-12 d-inline-block mt-2 w-100">
+      </span>
+      <main>
+        <div class="menu">
+          <div class="sq"></div>
+          <div class="sq"></div>
+          <div class="sq"></div>
+          <div class="sq"></div>
+          <div class="sq"></div>
+          <div class="sq"></div>
+        </div>
+        </div>
+      </main>
+    </div>
+    <script src="./lib/scripts/index.js"></script>
+  </body>
+</html>
